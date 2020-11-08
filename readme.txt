@@ -1,0 +1,12 @@
+首先运行data_prepare.py处理数据
+然后运行make_dir.py处理文件夹
+然后运行VGG16_train_valid.py检查模型的性能
+最后运行make_final_dir.py做最终训练数据集并使用之前的方法处理数据集
+使用VGG16_final_train.py并保存模型。
+使用predict_one_picture.py实现预测一张图片。
+使用predict_all_picture.py预测所有的图片并且写入sample_submission.csv文件中。
+
+cat-vs-dog-webapp里面为webapp的实现内容，运行app.py进入网页
+
+
+
